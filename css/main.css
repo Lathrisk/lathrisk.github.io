@@ -2,13 +2,13 @@
   color: #009BCD;
   font-family: "Courier New", Courier, monospace;
   margin-top: 50px;
-  font-size: 28;
+  font-size: 40px;
 }
 
 p {
   color: #009BCD;
   font-family: "Courier New", Courier, monospace;
-  font-size: 14;
+  font-size: 14px;
 }
 
 body {
@@ -38,6 +38,7 @@ a:hover {
 h3 {
   color: #009BCD;
   font-family: "Courier New", Courier, monospace;
+  font-size: 30px
 }
 
 img {
@@ -93,4 +94,9 @@ padding: 20px;
     text-decoration: none;
     color: #009BCD;
     padding: 8px 8px 8px 8px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
 }

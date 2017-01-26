@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VRView Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="build/vrview.min.js" type="text/javascript"></script>
+    <script src="build/three.js"></script>
+    <script src="build/embed.js"></script>
+</head>
+<body>
+
+<div id="container">
+
+    <h1>Test</h1>
+    <div id="vrview"></div>
+
+</div>
+<script>
+
+
+    window.addEventListener('load', onVrViewLoad);
+    function onVrViewLoad() {
+        var vrView = new VRView.Player('#vrview', {
+            image: 'mountains360.jpg'
+            // is_stereo: false
+        });
+    }
+
+</script>
+
+</body>
+</html>
